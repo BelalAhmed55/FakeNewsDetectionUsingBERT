@@ -23,7 +23,7 @@ PRETRAINED_NAME = "bert-base-uncased"   # same pretrained model + tokenizer as t
 MAX_LENGTH = 15                         # MAX_LENGHT in the notebook: titles are cut to 15 tokens
 CLASS_NAMES = ["Real", "Fake"]          # notebook label_map = {"Fake": 1, "True": 0} -> index 0 = Real, 1 = Fake
 MIN_WORDS = 3                           # same minimum as the notebook's Gradio app
-MAX_CHARS = 500
+MAX_CHARS = 1000
 
 
 # ---------------------------------------------------------------------------
